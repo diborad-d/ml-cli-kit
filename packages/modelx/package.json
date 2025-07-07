@@ -1,0 +1,15 @@
+{
+  "name": "@ml-cli-kit/modelx",
+  "version": "1.0.0",
+  "description": "Suggest and explain ML models",
+  "bin": {
+    "modelx": "./bin/modelx.js"
+  },
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@ml-cli-kit/testset",
+  "version": "1.0.0",
+  "description": "Generate synthetic ML datasets",
+  "bin": {
+    "testset": "./bin/testset.js"
+  },
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

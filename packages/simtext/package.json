@@ -1,0 +1,15 @@
+{
+  "name": "@ml-cli-kit/simtext",
+  "version": "1.0.0",
+  "description": "Find similar ML terms or phrases",
+  "bin": {
+    "simtext": "./bin/simtext.js"
+  },
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

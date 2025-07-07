@@ -1,0 +1,15 @@
+{
+  "name": "@ml-cli-kit/promptgen",
+  "version": "1.0.0",
+  "description": "Generate optimized LLM prompts",
+  "bin": {
+    "promptgen": "./bin/promptgen.js"
+  },
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

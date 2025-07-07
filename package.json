@@ -1,0 +1,22 @@
+{
+  "name": "ml-cli-kit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A monorepo of small AI/ML command-line tools.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "format": "lerna run format",
+    "clean": "lerna clean"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  }
+}

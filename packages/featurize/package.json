@@ -1,0 +1,15 @@
+{
+  "name": "@ml-cli-kit/featurize",
+  "version": "1.0.0",
+  "description": "Convert text into structured ML features",
+  "bin": {
+    "featurize": "./bin/featurize.js"
+  },
+  "type": "module",
+  "author": "Dibora D",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
