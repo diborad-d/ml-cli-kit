@@ -4,9 +4,9 @@ A CLI and library for extracting structured features from user activity sentence
 
 ---
 
-## Installation
+### Installation
 
-### As a CLI (Recommended for local development)
+#### As a CLI (Recommended for local development)
 
 1. **Navigate to the package directory:**
 
