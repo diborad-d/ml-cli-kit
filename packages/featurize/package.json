@@ -8,8 +8,40 @@
   "type": "module",
   "author": "Dibora D",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  }
+  "main": "./lib/featurize.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diborad-d/ml-cli-kit"
+  },
+  "scripts": {
+    "start": "node ./bin/featurize.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "lint": "eslint . --ext .js,.mjs,.cjs,.ts,.tsx",
+    "format": "prettier --write .",
+    "ci": "npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-define-config": "^2.1.0",
+    "jest": "^30.0.4",
+    "prettier": "^2.0.0"
+  },
+  
+   "keywords": [
+    "ml",
+    "machine-learning",
+    "features",
+    "text",
+    "cli",
+    "featurization",
+    "natural-language-processing",
+    "text-classification",
+    "feature-extraction",
+    "feature-engineering",
+    "nlp",
+    "data-science",
+    "data-preprocessing",
+    "text-mining"
+  ]
+
 }
